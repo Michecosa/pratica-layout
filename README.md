@@ -23,5 +23,8 @@ Each folder contains:
 - Explore animations and transitions
 - Experiment with accessibility best practices
 
+## 🌐 Take a look
+- [Layout 1](https://michecosa.github.io/pratica-layout/layout-1)
+
 ## 📜 License
 This project is open-source and available under the [MIT License](LICENSE).
