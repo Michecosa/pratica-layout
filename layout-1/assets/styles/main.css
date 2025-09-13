@@ -1,6 +1,8 @@
 .web-page .container {
   width: 70%;
   margin: 0 auto;
+
+  border: 1px dashed;
 }
 
 .web-page .intro-elements {
@@ -27,4 +29,24 @@
 .web-page .figurecaption {
   height: 2.5rem;
   width:18rem;
+}
+
+
+
+
+
+.web-page .a1 {background-color: rgba(206, 154, 255, 0.873);}
+
+.web-page .card-area {
+  height: 30rem;
+  padding-block: 2rem;
+
+  display: flex;
+  gap: 5%;
+}
+
+.web-page .card-1 {
+  height: 100%;
+  flex: 1;
+  background-color: white;
 }
