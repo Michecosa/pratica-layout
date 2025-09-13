@@ -1,0 +1,30 @@
+.web-page .container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.web-page .intro-elements {
+  height: 14rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.web-page .intro-elements > * {
+  background-color: lightgray;
+}
+
+.web-page .figureimage {
+  height: 5rem;
+  width: 5rem;
+}
+
+.web-page .figurecaption {
+  height: 2.5rem;
+  width:18rem;
+}
