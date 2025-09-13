@@ -1,8 +1,17 @@
-.web-page .container {
-  width: 70%;
-  margin: 0 auto;
+.debug {
+  background-color: rgb(127, 255, 144);
+}
 
-  border: 1px dashed;
+.debug .intro {
+  background-color: white;
+  margin-bottom: 35rem;
+}
+
+
+
+.web-page .container {
+  width: 60%;
+  margin: 0 auto;
 }
 
 .web-page .intro-elements {
@@ -49,7 +58,6 @@
 .web-page .a1 .card-1,
 .web-page .a2 .card-1 {
   height: 100%;
-  padding: 2rem;
   flex: 1;
   
   display: flex;
@@ -62,7 +70,7 @@
 }
 
 .web-page .a1 .card-1 {justify-content: center;}
-.web-page .a2 .card-1 {justify-content: flex-end;}
+.web-page .a2 .card-1 {justify-content: flex-end; padding: 2rem;}
 
 .web-page .card-1 > * {
   width: 100%;
