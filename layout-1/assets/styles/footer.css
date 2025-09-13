@@ -1,0 +1,11 @@
+.debug .end-page {
+  margin-top: 1rem;
+}
+
+
+.debug .end-page .container{
+  height: 4rem;
+  padding-top: 1rem;
+
+  background-color: cornflowerblue;
+}
