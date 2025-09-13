@@ -10,7 +10,7 @@
 
 
 .web-page .container {
-  width: 60%;
+  width: 65rem;
   margin: 0 auto;
 }
 
@@ -74,7 +74,7 @@
 
 .web-page .card-1 > * {
   width: 100%;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(243, 243, 243);
 }
 
 .web-page .a1 .card-1-1 {height: 15%; width: 60%;}
@@ -86,8 +86,36 @@
 .web-page .a1 .card-1-2 > * {
   height: 100%;
   width:100%;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(243, 243, 243);
 }
 
 .web-page .a2 .card-1-1 {height: 10%;}
 .web-page .a2 .card-1-2 {height: 50%;}
+
+
+
+
+
+
+.web-page .other-container > .card-area {
+  padding-inline: 3rem;
+  flex: 1;
+}
+
+.web-page .other-container {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.web-page .other-container .card-1 {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.web-page .other-container .orange-1 {
+  background-color: rgb(255, 149, 0);
+}
+
+.web-page .other-container .orange-2 {
+  background-color: rgb(255, 136, 0);
+}
+
