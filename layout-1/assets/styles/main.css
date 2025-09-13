@@ -70,7 +70,6 @@
 
 .web-page .card-1 > * {
   width: 100%;
-  max-width: 50rem;
   
   background-color: rgb(243, 243, 243);
 }
