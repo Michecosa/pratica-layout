@@ -2,3 +2,49 @@
   height: 4rem;
   background-color: cornflowerblue;
 }
+
+.menu-bar .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-inline: 2rem;
+}
+
+.menu-bar .logo {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo .image {
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+}
+
+.logo .text {
+  height: 2rem;
+  width: 6rem;
+  background-color: white;
+}
+
+.details {
+  display: flex;
+  flex: 1;
+
+  justify-content: center;
+  gap:1%;
+}
+
+.details .item {
+  height: 2rem;
+  width: 6rem;
+
+  background-color: white;
+}
+
+.button .subscribe-button {
+  height: 2rem;
+  width: 6rem;
+
+  background-color: white;
+}
