@@ -35,7 +35,8 @@
 
 
 
-.web-page .a1 {background-color: rgba(206, 154, 255, 0.873);}
+.web-page .a1 {background-color: white;}
+.web-page .a2 {background-color: rgba(206, 154, 255, 0.873);}
 
 .web-page .card-area {
   height: 30rem;
@@ -45,23 +46,40 @@
   gap: 5%;
 }
 
-.web-page .card-1 {
+.web-page .a1 .card-1,
+.web-page .a2 .card-1 {
   height: 100%;
   padding: 2rem;
   flex: 1;
   
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
+
   gap: 2rem;
 
   background-color: white;
 }
+
+.web-page .a1 .card-1 {justify-content: center;}
+.web-page .a2 .card-1 {justify-content: flex-end;}
 
 .web-page .card-1 > * {
   width: 100%;
   background-color: rgb(227, 227, 227);
 }
 
-.web-page .card-1-1 {height: 10%;}
-.web-page .card-1-2 {height: 50%;}
+.web-page .a1 .card-1-1 {height: 15%; width: 60%;}
+.web-page .a1 .card-1-2 {height: 70%; background-color: white;
+  display: flex;
+  gap: 2rem;
+}
+
+.web-page .a1 .card-1-2 > * {
+  height: 100%;
+  width:100%;
+  background-color: rgb(227, 227, 227);
+}
+
+.web-page .a2 .card-1-1 {height: 10%;}
+.web-page .a2 .card-1-2 {height: 50%;}
