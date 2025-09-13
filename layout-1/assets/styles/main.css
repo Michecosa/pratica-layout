@@ -5,7 +5,8 @@
 
 
 .web-page .container {
-  width: 65rem;
+  width: 70%;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
