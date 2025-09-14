@@ -26,6 +26,7 @@ Each folder contains:
 ## 🌐 Take a look
 - [Layout 1](https://michecosa.github.io/pratica-layout/layout-1)
 - [Layout 2](https://michecosa.github.io/pratica-layout/layout-2)
+- [Layout 3](https://michecosa.github.io/pratica-layout/layout-3)
 
 ## 📜 License
 This project is open-source and available under the [MIT License](LICENSE).
