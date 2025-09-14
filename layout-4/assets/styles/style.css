@@ -24,17 +24,24 @@
 
 
 button{
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   border-radius:50%;
 
   justify-self: flex-end;
   margin-top:auto;
   margin-bottom: 50vh;
+
+  background-color: rgb(255, 255, 255);
+  border: 0;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .main-body > * > img {
-  height: 2rem;
+  height: 2.5rem;
 }
 
 .main-body > img {
