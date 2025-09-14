@@ -12,3 +12,15 @@
   background-color: white;
   color: black;
 }
+
+
+button{
+  width: 5rem;
+  height: 5rem;
+  border-radius:50%;
+}
+
+.main-body > * > img {
+  height: 2rem;
+}
+
