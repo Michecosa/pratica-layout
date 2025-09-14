@@ -1,7 +1,11 @@
+footer {
+  width: 100%;
+}
+
+
 .debug .footer {
   display: flex;
   height: 7vh;
-  flex: 1;
   background-color: rgb(0, 102, 165);
 
   align-items: center;
