@@ -1,6 +1,6 @@
 .debug .main {
   max-width: 140rem;
-
+  
   width: 80%;
   margin: 0 auto;
   padding: 1rem;
@@ -22,6 +22,7 @@
 .main > * > * {
   flex: 1 1 15rem;  /* cresce, si restringe, min-width = 15rem */
   min-height: 43.45vh;
+  min-width: 43.35rem;
   text-align: center;
 }
 
