@@ -1,0 +1,28 @@
+.debug .top-page {
+  height: 18rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.top-page > * {
+  flex: 1;
+  height: 100%;
+}
+
+.top-page article,
+.top-page .text {
+  background-color: beige;
+}
+
+.top-page .text-area {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 1rem;
+  
+  padding: 0;
+}
+
+.top-page .text {
+  flex:1;
+}

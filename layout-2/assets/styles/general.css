@@ -1,4 +1,10 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  padding: 0.4rem;
+}
+
+.debug {
+  max-width: 80rem;
+  margin: 0 auto;
 }
