@@ -14,7 +14,7 @@
 
 .debug .main > * {
   display: flex;
-  height: 40vh;
+  height: 30rem;
   gap: 0.7rem;
 }
 
