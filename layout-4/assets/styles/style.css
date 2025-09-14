@@ -24,8 +24,8 @@
 
 
 button{
-  width: 7rem;
-  height: 7rem;
+  width: 5rem;
+  height: 5rem;
   border-radius:50%;
 
   justify-self: flex-end;
@@ -45,7 +45,7 @@ button:hover {
 }
 
 .main-body > img {
-  height: 20rem;
-  width: 14rem;
+  height: 16rem;
+  width: 11rem;
 }
 
