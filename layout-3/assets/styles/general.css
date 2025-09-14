@@ -11,7 +11,7 @@ html, body {
 }
 
 .debug{
-  font-size: 2vw;
+  font-size: clamp(14px, 2vw, 80px);
   height: 100vh;
   display: flex;
   flex-direction: column;
