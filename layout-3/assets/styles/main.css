@@ -1,24 +1,27 @@
 .debug .main {
-  width: 100%;
   max-width: 80rem;
+  min-width: 50rem;
+
+  min-height: 90rem;
   margin: 0 auto;
   padding: 1rem;
+
   display: flex;
   flex-direction: column;
-  text-align: center;
+
   gap: 0.7rem;
-  background: rgb(250, 250, 250);
 }
 
 .debug .main > * {
   display: flex;
-  flex-wrap: wrap;
+
   gap: 0.7rem;
   height: auto;
 }
 
 .main > * > * {
   flex: 1 1 15rem;  /* cresce, si restringe, min-width = 15rem */
+  height: 45rem;
   text-align: center;
 }
 
