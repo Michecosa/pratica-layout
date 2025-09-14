@@ -24,3 +24,7 @@ button{
   height: 2rem;
 }
 
+.main-body > img {
+  height: 20rem;
+  width: 14rem;
+}
