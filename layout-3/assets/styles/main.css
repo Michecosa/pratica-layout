@@ -1,5 +1,6 @@
 .debug .main {
-  max-width: 80rem;
+  width: 70%;
+  max-width: 140rem;
   min-width: 50rem;
 
   min-height: 90rem;
