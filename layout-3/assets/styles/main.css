@@ -21,7 +21,7 @@
 
 .main > * > * {
   flex: 1 1 15rem;  /* cresce, si restringe, min-width = 15rem */
-  min-height: 45rem;
+  min-height: 43.45vh;
   text-align: center;
 }
 
