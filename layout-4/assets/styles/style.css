@@ -36,9 +36,9 @@ button{
 
   background-color: rgb(255, 255, 255);
   border: 0;
-  position: absolute;      /* bottone rimane fisso */
-  bottom: 40%;            /* distanza dal fondo */
-  left: 50%;               /* centro orizzontale */
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
   transform: translateX(-50%);
 }
 
