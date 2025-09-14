@@ -7,6 +7,8 @@ main {
   width: 80%;
   margin: 0 auto;
 
+  max-width: 160rem;
+
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
@@ -19,7 +21,7 @@ main {
   flex:1;
   gap: 0.7rem;
   
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .main > * > * {
@@ -31,6 +33,6 @@ main {
   text-align: center;
 }
 
-.main .first-row .main-content {background-color: rgb(103, 210, 103); flex: 0.7;}
-.main .first-row .side-bar {background-color: rgb(208, 103, 210); flex: 0.3;}
-.main .second-row .twin {background-color: rgb(255, 150, 31);}
+.main .first-row .main-content {background-color: rgb(103, 210, 103); flex: 0.7; min-width:67.2%;}
+.main .first-row .side-bar {background-color: rgb(208, 103, 210); flex: 0.3;min-width:28.8%;}
+.main .second-row .twin {background-color: rgb(255, 150, 31); min-width:48%;}
