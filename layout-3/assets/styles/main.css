@@ -1,7 +1,5 @@
 .debug .main {
-  width: 70%;
   max-width: 140rem;
-  min-width: 50rem;
 
   margin: 0 auto;
   padding: 1rem;
@@ -14,6 +12,8 @@
 
 .debug .main > * {
   display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
 
   gap: 0.7rem;
   height: auto;
@@ -22,6 +22,7 @@
 .main > * > * {
   flex: 1 1 15rem;  /* cresce, si restringe, min-width = 15rem */
   min-height: 43.45vh;
+  min-width: 50rem;
   text-align: center;
 }
 
