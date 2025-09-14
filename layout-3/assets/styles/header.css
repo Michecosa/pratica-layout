@@ -1,5 +1,6 @@
 .debug .header {
   display: flex;
+  min-width: 100vh;
   height: 5rem;
   background-color: rgb(0, 144, 234);
 
