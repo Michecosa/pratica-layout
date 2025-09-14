@@ -1,31 +1,43 @@
+main {
+  flex: 1;
+  display: flex;
+}
+
 .debug .main {
-  max-width: 140rem;
-  
   width: 80%;
   margin: 0 auto;
-  padding: 1rem;
 
   display: flex;
   flex-direction: column;
-
   gap: 0.7rem;
+
+  margin-block: 1rem;
 }
 
 .debug .main > * {
   display: flex;
-  flex-wrap: wrap;
-
+  flex:1;
   gap: 0.7rem;
-  height: auto;
 }
 
 .main > * > * {
-  flex: 1 1 15rem;  /* cresce, si restringe, min-width = 15rem */
-  min-height: 43.45vh;
-  min-width: 43.35rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.main .first-row .main-content { background: rgb(103, 210, 103); }
-.main .first-row .side-bar { background: rgb(208, 103, 210); }
-.main .second-row .twin { background: rgb(255, 150, 31); }
+.main .first-row .main-content {
+  flex: 1.3;
+  background-color: rgb(103, 210, 103);
+}
+
+.main .first-row .side-bar {
+  flex: 0.7;
+  background-color: rgb(208, 103, 210);
+}
+
+.main .second-row .twin {
+  background-color: rgb(255, 150, 31);
+}

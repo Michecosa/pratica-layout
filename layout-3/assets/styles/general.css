@@ -5,10 +5,15 @@
   font-family: monospace;
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 .debug{
   font-size: 3rem;
-  min-height: 100vh;
-
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }

@@ -1,7 +1,7 @@
 .debug .header {
   display: flex;
-  flex: 1;
-  height: 5rem;
+  height: 7vh;
+  flex:1;
   background-color: rgb(0, 144, 234);
 
   align-items: center;
